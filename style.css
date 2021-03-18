@@ -112,6 +112,10 @@ footer{
   line-height: 28px;
   font-size: 14px;
 }
+.sticky footer{
+  position: sticky;
+  top: 100%;
+}
 .socials{
   list-style: none;
   display: flex;
