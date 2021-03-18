@@ -11,6 +11,7 @@ html {
 body {
   background-color: #eee;
   font-family: "Gill Sans Extrabold", sans-serif;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +86,6 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
-  display: inline-block;
   background: #111;
   height: auto;
   width: 100vw;
