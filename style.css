@@ -81,8 +81,7 @@ body {
   letter-spacing: 0.1rem;
 }
 footer{
-  min-height: 100%;
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
