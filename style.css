@@ -20,7 +20,6 @@ body {
 
 .grid {
   display: grid;
-  position: relative;
   width: 120em;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
