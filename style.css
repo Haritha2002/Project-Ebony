@@ -12,7 +12,7 @@ body {
   background-color: #eee;
   font-family: "Gill Sans Extrabold", sans-serif;
   position: relative;
-  display: flex;
+  display: inline block;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -21,6 +21,7 @@ body {
 .grid {
   display: grid;
   width: 120em;
+  margin: auto;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
@@ -82,7 +83,6 @@ body {
   letter-spacing: 0.1rem;
 }
 footer{
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -111,10 +111,6 @@ footer{
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
-}
-.sticky footer{
-  position: sticky;
-  top: 100%;
 }
 .socials{
   list-style: none;
