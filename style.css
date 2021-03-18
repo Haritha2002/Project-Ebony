@@ -85,6 +85,7 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
+  display: inline-block;
   background: #111;
   height: auto;
   width: 100vw;
@@ -93,7 +94,7 @@ footer{
   color: #fff;
 }
 .footer-content{
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
